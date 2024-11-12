@@ -1,0 +1,112 @@
+#BODY {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#HEADER {
+    background-color: #3e4a55;
+    color: white;
+    padding: 20px 0;
+}
+
+#LOGO-CONTAINER {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-300%);
+}
+
+#LOGO {
+    width: 100px;
+    height: auto;
+}
+
+#H1-MAIN {
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+}
+
+#NAV-HEADER {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.A-NAV-HEADER {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.A-NAV-HEADER:hover {
+    color: #ff5722;
+}
+
+#DIV-GALERIA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.DIV-GALERIA-MUESTRA {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.DIV-GALERIA-MUESTRA-FORMATO {
+    margin: 15px;
+}
+
+.DIV-GALERIA-MUESTRA-FORMATO img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#FOOTER {
+    background-color: #3e4a55;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#DIV-FOOTER-CONTACTO {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.DIV-FOOTER-CONTACTO-DATOS {
+    margin: 10px;
+    text-align: center;
+}
+
+.DIV-FOOTER-CONTACTO-DATOS img {
+    width: 50px;
+    height: 50px;
+}
+
+.DIV-FOOTER-CONTACTO-DATOS p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#WHATSAPP-FOOTER-CONTACTO-DATOS,
+#INSTAGRAM-FOOTER-CONTACTO-DATOS,
+#FACEBOOK-FOOTER-CONTACTO-DATOS,
+#TIKTOK-FOOTER-CONTACTO-DATOS {
+    font-size: 14px;
+}
+
+#DIV-FOOTER p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1e1; 
+    color: #3e2a47; 
+    margin: 0;
+    padding: 0;
+}
+
+#HEADER {
+    background-color: #8b5c42;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#LOGO-CONTAINER {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-300%);
+}
+
+#LOGO {
+    width: 100px;
+    height: auto;
+}
+
+#H1-MAIN {
+    font-size: 2.5em;
+    color: #f9e2b3;
+    margin: 0;
+    font-weight: bold;
+}
+
+#NAV-HEADER {
+    margin-top: 10px;
+}
+
+.A-NAV-HEADER {
+    text-decoration: none;
+    color: #f9e2b3;
+    font-size: 1.2em;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.A-NAV-HEADER:hover {
+    color: #3e2a47;
+}
+
+#INICIO {
+    background-color: #f9e2b3; 
+    text-align: center;
+    padding: 50px 0;
+}
+
+#H2-MAIN {
+    font-size: 2.2em;
+    color: #8b5c42; 
+    margin-bottom: 10px;
+}
+
+.P-FOUNT-2 {
+    font-size: 1.5em;
+    color: #3e2a47; 
+    line-height: 1.6;
+}
+
+#DIV-HORARIOS {
+    background-color: #f4f1e1; 
+    padding: 30px 0;
+    text-align: center;
+}
+
+.P-FOUNT-1 {
+    font-size: 1.8em;
+    color: #8b5c42; 
+}
+
+.DIV-HORARIO {
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #3e2a47; 
+}
+
+thead {
+    background-color: #8b5c42; 
+    color: #f9e2b3;
+}
+
+#DIV-UBICACION {
+    background-color: #f4f1e1;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.P-FOUNT-1 {
+    font-size: 1.8em;
+    color: #8b5c42; 
+}
+
+.P-FOUNT-2 {
+    font-size: 1.2em;
+    color: #3e2a47; 
+    line-height: 1.6;
+}
+
+#FOOTER {
+    background-color: #8b5c42;
+    color: #f9e2b3;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#DIV-FOOTER {
+    margin-bottom: 20px;
+}
+
+#DIV-FOOTER-CONTACTO {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.DIV-FOOTER-CONTACTO-DATOS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#WHATSAPP-FOOTER-CONTACTO-DATOS,
+#INSTAGRAM-FOOTER-CONTACTO-DATOS,
+#FACEBOOK-FOOTER-CONTACTO-DATOS,
+#TIKTOK-FOOTER-CONTACTO-DATOS {
+    width: 50px;
+    height: 50px;
+}
+
+#DIV-FOOTER-CONTACTO-DATOS p {
+    margin-top: 5px;
+    font-size: 1.1em;
+}
+
+#FOOTER a {
+    text-decoration: none;
+    color: #f9e2b3;
+}
+
+#FOOTER a:hover {
+    color: #3e2a47; 
+}
